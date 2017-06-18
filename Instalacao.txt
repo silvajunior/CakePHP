@@ -1,0 +1,11 @@
+Instalação
+
+Se você estiver usando o XAMPP,vá até o arquivo php.ini e descomente a linha:
+extension=php_intl.dll
+
+Se o Composer estiver instalado globalmente:
+composer create-project --prefer-dist cakephp/app [app_name]
+
+
+
+Fonte:https://book.cakephp.org/3.0/pt/installation.html
